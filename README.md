@@ -285,11 +285,8 @@ git push                      # sube el resultado a tu fork
 Git te avisará con algo como `CONFLICT (content): Merge conflict in labs/LAB05 - JOIN.md`. No es un error grave: significa que ese fichero tiene cambios tuyos y nuestros en la misma zona y Git no quiere decidir por ti. Abre el fichero (Obsidian o VS Code lo resaltan) y verás bloques así:
 
 ```
-<<<<<<< HEAD
    (tu versión)
-=======
    (nuestra versión)
->>>>>>> upstream/main
 ```
 
 Edita el fichero dejando el contenido que quieras (normalmente ambas partes: nuestra corrección y tu solución), borra las líneas con `<<<<<<<`, `=======` y `>>>>>>>`, y termina la operación:
